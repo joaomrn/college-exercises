@@ -3,11 +3,18 @@ package com.searchengine.app;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
+/**
+ * Spring boot application of a search engine
+ */
 @SpringBootApplication
 public class AppApplication {
 
-	public static void main(String[] args) {
-		SpringApplication.run(AppApplication.class, args);
-	}
+    /**
+     * Main method
+     */
+    public static void main(String[] args) {
+        // Run the application
+        SpringApplication.run(AppApplication.class, args);
+    }
 
 }
