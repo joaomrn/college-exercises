@@ -11,6 +11,8 @@ public class AppApplication {
 
     /**
      * Main method
+     * 
+     * @return void
      */
     public static void main(String[] args) {
         // Run the application
